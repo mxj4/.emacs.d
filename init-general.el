@@ -7,4 +7,9 @@
 ;(setq linum-format "%d")
 
 (setq-default indent-tabs-mode nil) ; indent with space
+
+(global-whitespace-mode t)
+(setq whitespace-line-column 80)
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+
 (provide 'init-general)
