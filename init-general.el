@@ -12,4 +12,6 @@
 (setq whitespace-line-column 80)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 
+(menu-bar-mode 0) ; no menu bar
+
 (provide 'init-general)
