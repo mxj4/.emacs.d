@@ -1,4 +1,4 @@
-x(add-to-list 'load-path (expand-file-name "~/.emacs.d"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d"))
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 
